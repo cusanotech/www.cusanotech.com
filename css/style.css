@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    background: linear-gradient(to top, #ECDFEF, #FFFFFF);
+} */
+:root {
+    --poppins: "Poppins", sans-serif;
+    --roboto:  "Roboto", sans-serif;
+
+    --pink: #CB6CE6;
+    --black: #000;
+    --white: #ffff;
+    --grey: hsl(0,0,65);
+
+    --padding-container: 85px 0;
+}
+
+body {
+    font-family: var(--poppins);
+}
+
+p {
+    font-family: var(--roboto);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* padding: var(--padding-container); */
+    
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+.span_tittle {
+    font-size: 1.5em;
+}
+
+.hero {
+    
+    position: relative;
+}
+
+.hero__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 50px;
+}
+
+.hero__logo {
+    width: 45%;
+    max-width: 160px;
+}
+
+.hero__huddle {
+    width: 100%;
+    display: block;
+}
+
+.cta_newsletter{
+    color:var(--black);
+    text-decoration: none;
+    border: 2px solid;
+    padding: 2px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 0 1px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.hero__main {
+    text-align: center;
+    display: flex;
+}
+.hero_img {
+    display: none;
+}
+
+/* @media only screen and (min-width: 768px) {
+
+    .hero__main {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    } */
+
+    
+    /* .hero_img {
+        display: block;
+    }
+    
+    } */
+
+
+.hero__title {
+    font-family: var(--poppins);
+    line-height: 1;
+    font-size: 2em;
+}
+
+.hero__pinktitle {
+    font-family: var(--roboto);
+    color: var(--pink);
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.hero__paragraph{
+    color: grey;
+    width: 90%;
+    margin: 16px auto;
+}
+
+.cta {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #000;
+    color: #ffff;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 30px;
+    margin-top: 30px ;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.span {
+    color: var(--pink);
+    /* font-weight:500; */
+}
+
+.main {
+    padding: var(--padding-container);
+}
+
+.empresas_container {
+    padding: 6px 9px;
+    align-items: center;
+}
+
+.empresas_container_images {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container_tittle {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+/* -------------------------------------------------------------------------- */
+.main_vsl {
+    text-align: center;
+}
+
+.vsl_container {
+    align-items: center;
+}
+
+.vsl {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+}
+
+.iframe {
+    margin-top: 50px;
+}
+
+.cta_2 {
+    font-size: 20px;
+    display: inline-block;
+    color: var(--black);
+    text-decoration: none;
+    padding: 12px 40px;
+    border: 2px solid;
+    border-radius: 30px;
+    margin-top: 16px ;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+.main_servicios {
+    text-align: center;
+    font-family: var(--poppins); ;
+    padding: var(--padding-container);
+}
+
+.box {
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px 0px;
+    border: solid 1px grey;
+    border-radius: 20px; 
+  }
+
+.line {
+    border-top: 1px solid white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .text_service {
+    padding: 20px;
+    color: grey;
+  }
+
+ /* -------------------------------------------------------------------------- */
+
+ .main_about {
+    text-align: center;
+    font-family: var(--poppins); ;
+    padding: var(--padding-container);
+}
+
+.img_yo {
+    width: 200px;
+    height: 200px;
+    border-radius: 99%;
+}
+
+.fundador {
+    color: #CB6CE6;
+    font-size: 1rem;
+}
+
+.about_me {
+    color: grey;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+ 
+}
+
+#span-negrita{
+    color: #000;
+}
+
+.links {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.conacto_federico{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta_linkedin {
+    font-size: 20px;
+    display: inline-block;
+    background-color:  #0C66C2;
+    color: #ffff;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 30px;
+    margin-top: 30px ;
+    letter-spacing: 1px;
+}
+
+.cta_linkedin img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.main_newsletter {
+    text-align: center;
+    font-family: var(--poppins); ;
+    padding: var(--padding-container);
+    border-radius: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+.main_contacto {
+    text-align: center;
+    font-family: var(--poppins); ;
+    padding: var(--padding-container);
+}
+.contacto {
+    font-size: 30px;
+}
+
+.contacto_nombre {
+    margin-bottom: 20px;
+}
+
+
